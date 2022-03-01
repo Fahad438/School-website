@@ -40,3 +40,12 @@
 
 
 ![screencapture-file-C-Users-fahad-AppData-Local-Temp-Rar-EXa20452-18408-projectai-feedback-html-2022-03-01-04_51_00](https://user-images.githubusercontent.com/86566999/156089684-cb5015ff-0a8d-43f7-9ed4-2f4280850df0.png)
+
+
+
+
+# Feddback with javascript
+
+
+
+![screencapture-file-C-Users-fahad-AppData-Local-Temp-Rar-EXa20452-18408-projectai-feedback-html-2022-03-01-04_54_30](https://user-images.githubusercontent.com/86566999/156089991-c15776af-7a74-4ce9-82ba-92c626ea8510.png)
