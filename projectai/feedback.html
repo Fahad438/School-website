@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <meta name="description" content="School">
+    <meta name="keywords" content="School,BestSchool,Students">
+    <title>FeedBack</title>
+    <script src="scripts/script.js"></script>
+
+</head>
+
+<body>
+    <!-- navigation -->
+    <div class="navigation">
+        <div class="container">
+            <h1>School Excellence</h1>
+
+            <ul>
+                <li><a href="index.html">Home </a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="AboutSchool.html">About school</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- menu -->
+    <div class="menu">
+
+    </div>
+    <!-- feedback -->
+    <div class="feedback">
+        <div class="container">
+            <form class="feed" method='post' name="feedback" action="pr " onsubmit="return valid() ">
+
+                <div id="errName" class="error-msg"></div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" onkeyup="nodigit()"
+                    onfocus="this.style.backgroundColor = 'yellow'; this.style.color = 'blue'; "
+                    onblur="change_back(this)" style="background-color: white; color: black;">
+                <div id="errEmail" class="error-msg"></div>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your Email"
+                    onfocus="this.style.backgroundColor = 'yellow'; this.style.color = 'blue'; "
+                    onblur="change_back(this)" style="background-color: white; color: black;">
+
+
+                <div id="errPahone" class="error-msg"></div>
+                <label for="Pahone">Pahone</label>
+                <input type="text" id="Pahone" name="Pahone" placeholder="Your Pahone"
+                    onfocus="this.style.backgroundColor = 'yellow'; this.style.color = 'blue'; "
+                    onblur="change_back(this)" style="background-color: white; color: black;">
+
+                <div id="errtopic" class="error-msg"></div>
+                <label for="topic">Topic</label>
+                <select id="topic" name="topic"
+                    onfocus="this.style.backgroundColor = 'yellow'; this.style.color = 'blue'; "
+                    onblur="change_back(this)" style="background-color: white; color: black;">
+                    <option>Select a topic</option>
+                    <option>Suggestion</option>
+                    <option>Complaint</option>
+                    <option>Idea</option>
+                    <option>Help</option>
+                </select>
+
+                <div id="errFeedback" class="error-msg"></div>
+                <label for="feedback">Feedback</label>
+                <textarea id="feedback" name="feedback" placeholder="Tell us what you think"
+                    onfocus="this.style.backgroundColor = 'yellow'; this.style.color = 'blue'; "
+                    onblur="change_back(this)" style="background-color: white; color: black;"
+                    style="height:200px"></textarea>
+
+                <input type="submit" class="subm" value="Submit">
+            </form>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            Copyright &copy; All Right Reserved To School of Excellence
+        </div>
+    </div>
+</body>
+
+</html>
